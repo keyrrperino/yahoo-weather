@@ -22,7 +22,7 @@ def hash_string(string):
 
 class YahooWeather(object):
     def __init__(self, app_id, client_id, client_secret):
-        self._url = 'https://weather-ydn-yql.media.yahoo.com/forecastrss';
+        self._url = 'https://weather-ydn-yql.media.yahoo.com/forecastrss'
         self._app_id = app_id
         self._client_id = client_id
         self._client_secret = client_secret
